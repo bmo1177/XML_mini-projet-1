@@ -380,10 +380,10 @@ Le schéma définit :
 
 | Requêtes  | Aperçu                                                                          |
 | --------- | ------------------------------------------------------------------------------- |
-| **1**     | ![Screenshot 1](https://claude.ai/chat/4.%20Exercice%20XPath/screenshots/1.png) |
-| **2-4**   | ![Screenshot 2](https://claude.ai/chat/4.%20Exercice%20XPath/screenshots/2.png) |
-| **5-10**  | ![Screenshot 3](https://claude.ai/chat/4.%20Exercice%20XPath/screenshots/3.png) |
-| **11-13** | ![Screenshot 4](https://claude.ai/chat/4.%20Exercice%20XPath/screenshots/4.png) |
+| **1**     | ![Screenshot 1](4.%20Exercice%20XPath/screenshots/1.png) |
+| **2-4**   | ![Screenshot 2](4.%20Exercice%20XPath/screenshots/2.png) |
+| **5-10**  | ![Screenshot 3](4.%20Exercice%20XPath/screenshots/3.png) |
+| **11-13** | ![Screenshot 4](4.%20Exercice%20XPath/screenshots/4.png) |
 
 ---
 
@@ -535,4 +535,5 @@ Ce projet est à usage éducatif dans le cadre d'un TP universitaire.
 
 **Date de réalisation** : Janvier 2026  
 **Cours** : Formalisme XML - Mini Projet
+
 
