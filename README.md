@@ -51,8 +51,6 @@ MiniProjet/
 
 ### 🔴 Document XML original (avec erreurs)
 
-<details> <summary>Cliquez pour voir le code</summary>
-
 ```xml
 <?xml version="3.0" encoding="utf-8"?>
 <logiciel Comptablite>
@@ -88,8 +86,7 @@ MiniProjet/
     <date_mise_en_service>
     2007–09–17
     </date_mise_en_service>
-
-</details>
+```
 
 ### 🔍 Les 7 erreurs identifiées
 
@@ -538,3 +535,4 @@ Ce projet est à usage éducatif dans le cadre d'un TP universitaire.
 
 **Date de réalisation** : Janvier 2026  
 **Cours** : Formalisme XML - Mini Projet
+
