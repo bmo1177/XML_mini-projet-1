@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    
+    <!-- Type complexe abstrait I -->
+    <xsd:complexType name="I" abstract="true">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:integer">
+                <xsd:attribute name="sign">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="+"/>
+                            <xsd:enumeration value="-"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <!-- Type complexe P qui dérive de I -->
+    <xsd:complexType name="P">
+        <xsd:simpleContent>
+            <xsd:restriction base="I">
+                <!-- Restriction de la valeur : entier non-négatif -->
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:nonNegativeInteger"/>
+                </xsd:simpleType>
+                <!-- Interdiction de l'attribut sign -->
+                <xsd:attribute name="sign" use="prohibited"/>
+            </xsd:restriction>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <!-- Élément racine -->
+    <xsd:element name="root">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="i" type="I" minOccurs="2" maxOccurs="3"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+</xsd:schema>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema>
+    <film id="lb78" type="comédie">
+        <titre>Les Bronzés</titre>
+        <annee>1978</annee>
+        <realisateur>Patrice Leconte</realisateur>
+        <role>
+            <nom>Popeye</nom>
+            <acteur>Thierry Lhermite</acteur>
+        </role>
+        <role>
+            <nom>Jean-Claude Dusse</nom>
+            <acteur>Michel Blanc</acteur>
+        </role>
+        <!-- Autres rôles du film -->
+    </film>
+    
+    <film id="gf94" type="comédie">
+        <titre>Grosse fatigue</titre>
+        <annee>1994</annee>
+        <realisateur>Michel Blanc</realisateur>
+        <role>
+            <nom>Patrick Olivier</nom>
+            <acteur>Michel Blanc</acteur>
+        </role>
+        <role>
+            <nom>Carole Bouquet</nom>
+            <acteur>Carole Bouquet</acteur>
+        </role>
+        <!-- Autres rôles du film -->
+        <prix>Cannes, meilleur scénario</prix>
+    </film>
+    
+    <!-- Exemple d'un troisième film sans prix -->
+    <film id="av83" type="aventure">
+        <titre>L'Avaleur de sabres</titre>
+        <annee>1983</annee>
+        <realisateur>Philippe Clair</realisateur>
+        <role>
+            <nom>Morin</nom>
+            <acteur>Philippe Clair</acteur>
+        </role>
+        <role>
+            <nom>Micheline Morin</nom>
+            <acteur>Micheline Dax</acteur>
+        </role>
+        <!-- Ce film n'a pas de prix -->
+    </film>
+    
+    <!-- Exemple d'un quatrième film avec beaucoup d'acteurs -->
+    <film id="am10" type="drame">
+        <titre>Les Amours imaginaires</titre>
+        <annee>2010</annee>
+        <realisateur>Xavier Dolan</realisateur>
+        <role>
+            <nom>Francis</nom>
+            <acteur>Xavier Dolan</acteur>
+        </role>
+        <role>
+            <nom>Marie</nom>
+            <acteur>Monia Chokri</acteur>
+        </role>
+        <role>
+            <nom>David</nom>
+            <acteur>Niels Schneider</acteur>
+        </role>
+        <role>
+            <nom>La mère</nom>
+            <acteur>Anne Dorval</acteur>
+        </role>
+        <role>
+            <nom>Le père</nom>
+            <acteur>Pierre Chagnon</acteur>
+        </role>
+        <role>
+            <nom>L'amie</nom>
+            <acteur>Catherine Bégin</acteur>
+        </role>
+        <!-- 6 rôles au total -->
+        <prix>Prix de la jeunesse, Festival de Cannes</prix>
+    </film>
+    
+    <producteur>
+        <nom>Daniel Toscan du Plantier</nom>
+        <film ref="gf94"/>
+        <film ref="av83"/>
+    </producteur>
+    
+    <producteur>
+        <nom>Yves Rousset-Rouard</nom>
+        <film ref="lb78"/>
+        <film ref="am10"/>
+    </producteur>
+    
+    <producteur>
+        <nom>Claude Berri</nom>
+        <film ref="lb78"/>
+        <!-- Producteur de comédies -->
+    </producteur>
+</cinema>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE root [
+<!ELEMENT root ((a,b*,a)|b)*>
+<!ELEMENT a (#PCDATA)>
+<!ELEMENT b (#PCDATA)>
+]>
+<root>
+    <a>contenu1</a>
+    <b>contenu2</b>
+    <a>contenu3</a>
+</root>
