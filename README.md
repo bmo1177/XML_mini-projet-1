@@ -38,12 +38,12 @@ MiniProjet/
 
 ## 📋 Table des Matières
 
-1. [Question 1 : Correction des 7 erreurs XML](https://claude.ai/chat/077ca655-a1ff-4591-aa86-a402593aacee#1-question-1--correction-des-7-erreurs-xml)
-2. [Exercice 1 : Comparaison de DTD](https://claude.ai/chat/077ca655-a1ff-4591-aa86-a402593aacee#2-exercice-1--comparaison-de-dtd)
-3. [Exercice 2 : Schéma XML (XSD)](https://claude.ai/chat/077ca655-a1ff-4591-aa86-a402593aacee#3-exercice-2--sch%C3%A9ma-xml-xsd)
-4. [Exercice XPath : Requêtes sur cinema.xml](https://claude.ai/chat/077ca655-a1ff-4591-aa86-a402593aacee#4-exercice-xpath--requ%C3%AAtes-sur-cinemaxml)
-5. [Outils et Validation](https://claude.ai/chat/077ca655-a1ff-4591-aa86-a402593aacee#-outils-et-validation)
-6. [Concepts Clés](https://claude.ai/chat/077ca655-a1ff-4591-aa86-a402593aacee#-concepts-cl%C3%A9s)
+1. [Question 1 : Correction des 7 erreurs XML]
+2. [Exercice 1 : Comparaison de DTD]
+3. [Exercice 2 : Schéma XML (XSD)]
+4. [Exercice XPath : Requêtes sur cinema.xml]
+5. [Outils et Validation]
+6. [Concepts Clés]
 
 ---
 
@@ -535,5 +535,6 @@ Ce projet est à usage éducatif dans le cadre d'un TP universitaire.
 
 **Date de réalisation** : Janvier 2026  
 **Cours** : Formalisme XML - Mini Projet
+
 
 
